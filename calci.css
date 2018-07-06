@@ -1,0 +1,80 @@
+
+body {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    30deg,
+    #f7f57b 0%,
+    #4bc5db 36%,
+    #ee4949  100%
+  );
+  overflow: none;
+  min-height: 100vh;
+  font-family: "Varela Round", Nunito, Montserrat, sans-serif;
+}
+
+
+.navi > ul > li {
+  background: #dad28d;
+  border-left: 15px solid var(--gradient-color);
+  margin-bottom: 1px;
+  position: relative;
+}
+.navi > ul > li:nth-child(1) {
+  --accent-color: rgb(250, 125, 91);
+  --gradient-color: rgb(250, 208, 68);
+}
+.navi > ul > li:nth-child(2) {
+  --accent-color: rgb(149, 245, 70);
+  --gradient-color: rgb(53, 195, 252);
+}
+.navi > ul > li:nth-child(3) {
+  --accent-color: rgb(82, 222, 241);
+  --gradient-color: rgb(238, 160, 160);
+}
+
+.navi > ul > li {
+    border-top: 5px solid var(--accent-color);
+    border-left: 0;
+    display: inline-block;
+    margin-left: -5px;
+    vertical-align: top;
+    width: 320px;
+    height: 30px;
+    padding-top:5px;
+    padding-left: 5px;
+    text-align: center;
+  }
+  .navi>ul>li:hover{
+    background-color: lightgreen;
+  }
+  .navi>ul>li>ul{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 15px;
+     }
+  .navi > ul > li>ul:nth-child(1) {
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%)
+  }
+.navi > ul > li>ul:nth-child(2) {
+  --accent-color: rgb(149, 245, 70);
+  --gradient-color: rgb(53, 195, 252);
+}
+.navi > ul > li>ul:nth-child(3) {
+  --accent-color: rgb(82, 222, 241);
+  --gradient-color: rgb(238, 160, 160);
+}
+
+
+  .navi>ul>li>ul{
+    display: none;
+    list-style-type: none;
+  }
+  .navi>ul>li:hover>ul{
+    display: block;
+  }
+  a{
+    text-decoration: none;
+    position: relative;
+    display: inline;
+    
+  }
