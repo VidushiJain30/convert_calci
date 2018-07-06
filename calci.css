@@ -47,34 +47,8 @@ body {
   .navi>ul>li:hover{
     background-color: lightgreen;
   }
-  .navi>ul>li>ul{
-    margin: 0px;
-    padding: 0px;
-    margin-top: 15px;
-     }
-  .navi > ul > li>ul:nth-child(1) {
-  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%)
-  }
-.navi > ul > li>ul:nth-child(2) {
-  --accent-color: rgb(149, 245, 70);
-  --gradient-color: rgb(53, 195, 252);
-}
-.navi > ul > li>ul:nth-child(3) {
-  --accent-color: rgb(82, 222, 241);
-  --gradient-color: rgb(238, 160, 160);
-}
-
-
-  .navi>ul>li>ul{
+  #men{
+    padding: 10px;
+    font-size: 20px;
     display: none;
-    list-style-type: none;
-  }
-  .navi>ul>li:hover>ul{
-    display: block;
-  }
-  a{
-    text-decoration: none;
-    position: relative;
-    display: inline;
-    
   }

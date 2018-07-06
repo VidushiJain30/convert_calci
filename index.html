@@ -10,17 +10,33 @@
 	<h1 style="text-align: center; color: red">Unit Converter</h1>
 	<nav class='navi'>
 		<ul>
-			<li>Length
-			<ul>
-				<li><a href="#0">m to feet</a></li>
-				<li><a href="#0">feet to m</a></li>
-				<li><a href="#0">inch to cm</a></li>
-				<li><a href="#0">cm to inch</a></li>
-			</ul>
-		</li>
+			<li onclick="select_unit()">Length
+
+			<div id="men">
+				<form><select id="choose">
+					<option value="mf">m to feet </option>
+					<option value="fm">feet to m </option>
+					<option value="ic">inch to cm </option>
+					<option value="ci">cm to inch </option>
+					</select>
+				</form>
+			</div>
+
+
+			</li>
 			<li>Area</li>
 			<li>Volume</li>
 		</ul>
 	</nav>
+<script type="text/javascript">
+	function select_unit ()
+	{
+		var x=document.getElementById("men");
+		x.style.display="block";
+		
+	}
+
+</script>
+
 </body>
 </html>
