@@ -1,4 +1,3 @@
-
 body {
   background-color: #4158d0;
   background-image: linear-gradient(
@@ -47,8 +46,39 @@ body {
   .navi>ul>li:hover{
     background-color: lightgreen;
   }
-  #men{
+  #len_sel{
     padding: 10px;
     font-size: 20px;
     display: none;
+  }
+  #choose{
+    padding: 10px;
+    font-size: 20px;
+    width: 200px;
+    margin-top: 3px;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  }
+  #ar_sel{
+    padding: 10px;
+    font-size: 20px;
+    display: none;
+  }
+  #area_choose{
+    padding: 10px;
+    font-size: 20px;
+    width: 200px;
+    margin-top: 3px;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  }
+#vol_sel{
+    padding: 10px;
+    font-size: 20px;
+    display: none;
+  }
+  #vol_choose{
+    padding: 10px;
+    font-size: 20px;
+    width: 200px;
+    margin-top: 3px;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
   }

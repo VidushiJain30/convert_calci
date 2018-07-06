@@ -7,12 +7,11 @@
 	coverter
 </title>
 <body>
-	<h1 style="text-align: center; color: red">Unit Converter</h1>
+	<h1 style="text-align: center; color: darkblue">Unit Converter</h1>
 	<nav class='navi'>
 		<ul>
-			<li onclick="select_unit()">Length
-
-			<div id="men">
+			<li onclick="select_unit('len')">Length
+			<div id="len_sel">
 				<form><select id="choose">
 					<option value="mf">m to feet </option>
 					<option value="fm">feet to m </option>
@@ -21,20 +20,35 @@
 					</select>
 				</form>
 			</div>
-
+			</li>
+			<li onclick="select_unit('area')">Area
+				<div id="ar_sel">
+				<form><select id="area_choose">
+					<option value="sqmf">sqm to sqfeet </option>
+					<option value="sqfm">sqfeet to sqm </option>
+					<option value="sqic">sqinch to sqcm </option>
+					<option value="sqci">sqcm to sqinch </option>
+					</select>
+				</form>
+			</div>
 
 			</li>
-			<li>Area</li>
-			<li>Volume</li>
+			<li onclick="select_unit('vol')">Volume
+				<div id="vol_sel">
+				<form><select id="vol_choose">
+					<option value="cmf">cm to cfeet </option>
+					<option value="cfm">cfeet to cm </option>
+					<option value="cic">cinch to ccm </option>
+					<option value="cci">ccm to cinch </option>
+					</select>
+				</form>
+			</div>
+
+			</li>
 		</ul>
 	</nav>
-<script type="text/javascript">
-	function select_unit ()
-	{
-		var x=document.getElementById("men");
-		x.style.display="block";
-		
-	}
+<script type="text/javascript" src="calci.js">
+	
 
 </script>
 
