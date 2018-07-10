@@ -4,7 +4,7 @@
 	<link rel="stylesheet" type="text/css" href="calci.css">
 </head>
 <title>
-	coverter
+	converter
 </title>
 <body>
 	<h1 style="text-align: center; color: darkblue">Unit Converter</h1>
@@ -31,7 +31,6 @@
 					</select>
 				</form>
 			</div>
-
 			</li>
 			<li onclick="select_unit('vol')">Volume
 				<div id="vol_sel">
@@ -43,14 +42,18 @@
 					</select>
 				</form>
 			</div>
-
 			</li>
 		</ul>
 	</nav>
+	<div id="use">
+		<form>Enter a value<input type="text" name="val" onkeypress="sub()" >
+	</form>
+</div>
+<div id="re">   
+	<h2>Result:</h2>
+</div>
+<div id="sh"></div>
 <script type="text/javascript" src="calci.js">
-	
-
 </script>
-
 </body>
 </html>

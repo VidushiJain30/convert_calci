@@ -16,3 +16,7 @@ function select_unit (y)
 			{var x=document.getElementById("vol_sel");
 		x.style.display="block";}	
 	}
+function sub()
+{
+	document.getElementById("sh").innerHTML=5;
+}
